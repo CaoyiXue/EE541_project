@@ -21,3 +21,9 @@ Maybe back to step 2, try another model.
 
 ## Step5:
 Fine-tune the model finally chosen, we may need to check with professor or TAs.
+
+## Articles
+# Article 1 : Analisis Perbandingan Algoritma Klasifikasi MLP dan CNN pada Dataset American Sign Language
+<p align="center"><img src="Articles/Article1/1.png" alt="Article1-1" width="500" /></p>
+<p align="center"><img src="Articles/Article1/2.png" alt="Article1-2" width="500" /></p>
+<p align="center"><img src="Articles/Article1/3.png" alt="Article1-3" width="500" /></p>
