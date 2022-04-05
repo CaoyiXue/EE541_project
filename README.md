@@ -34,5 +34,5 @@ This paper outlines a convolutional neural network (CNN) integrated with spatial
 <p align="center"><img src="Articles/Article2/1.png" alt="Article2-1" width="500" /></p>
 
 2. CNN + SPP
-<p align="center"><img src="Articles/Article2/2.png" alt="Article2-2" width="500" /></p>
+<p align="center"><img src="Articles/Article2/2.png" alt="Article2-2" width="700" /></p>
 <p align="center"><img src="Articles/Article2/3.png" alt="Article2-3" width="500" /></p>
