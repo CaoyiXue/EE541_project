@@ -1,27 +1,4 @@
 # EE541_project
-## Step 1:
-find some way to increase the resolution of data picture;\
-emphasize the hand part and attenuate the background;\
-cut out hand part from the picture;\
-Low pass Filter?\
-read data into dataset and use dataloader from PyTorch.
-
-## Step 2:
-A short literature survey?\
-[Article1.pdf](Articles/Article1.pdf)\
-[Article2.pdf](Articles/Article2.pdf)\
-List reasonable different models.
-
-## Step3:
-Experiment with different hyper parameters.
-  
-## Step4:
-Create new test data on our own, get results of accuracy.\
-Maybe back to step 2, try another model.
-
-## Step5:
-Fine-tune the model finally chosen, we may need to check with professor or TAs.
-
 ## Articles
 ### Article 1 : Analisis Perbandingan Algoritma Klasifikasi MLP dan CNN pada Dataset American Sign Language
 <p align="center"><img src="Articles/Article1/1.png" alt="Article1-1" width="500" /></p>
@@ -44,3 +21,13 @@ In the second stage, 128 filters with the same receptive field and stride are us
 
 3. The final layer: The 128‐dimensional feature vectors with a matrix of size 5 × 5 is reshaped to a single 3200‐dimensional vector and used as input to a two‐layer neural net with 128 nodes in the hidden layer and 24 class nodes, one for each letter.
 <p align="center"><img src="Articles/Article3/1.png" alt="Article3-1" width="900" /></p>
+
+### Article 4 : Classification of Finger Spelling American Sign Language Using Convolutional Neural Network
+1. There are three stages in pre-processing the first data is the resizing process, resizing is the process of changing the image size so that it can be processed on a predetermined architecture. The second is the process of the scaling feature, the scaling feature is the process of changing the pixel range from 0-255 to 0-1, so that the data initialization process is faster and optimal. Third is the One Hot Encoding process. One hot encoding process is carried out on label testing and training.
+2. Resnet 50:\
+<p align="center"><img src="Articles/Article4/1.png" alt="Article4-1" width="600" /></p>
+<p align="center"><img src="Articles/Article4/3.png" alt="Article4-3" width="600" /></p>
+
+3. DenseNet 121\
+<p align="center"><img src="Articles/Article4/2.png" alt="Article4-2" width="600" /></p>
+<p align="center"><img src="Articles/Article4/4.png" alt="Article4-4" width="600" /></p>
