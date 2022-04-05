@@ -31,8 +31,8 @@ Fine-tune the model finally chosen, we may need to check with professor or TAs.
 ### Article 2 : Convolutional neural network with spatial pyramid pooling for hand gesture recognition
 This paper outlines a convolutional neural network (CNN) integrated with spatial pyramid pooling (SPP), dubbed CNN–SPP, for vision-based hand gesture recognition.\
 1. use nine data augmentation to add more data
-<p align="center"><img src="Articles/Article2/1.png" alt="Article2-1" width="500" /></p>
+<p align="center"><img src="Articles/Article2/1.png" alt="Article2-1" width="900" /></p>
 
 2. CNN + SPP
-<p align="center"><img src="Articles/Article2/2.png" alt="Article2-2" width="700" /></p>
+<p align="center"><img src="Articles/Article2/2.png" alt="Article2-2" width="900" /></p>
 <p align="center"><img src="Articles/Article2/3.png" alt="Article2-3" width="500" /></p>
