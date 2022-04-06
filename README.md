@@ -58,6 +58,7 @@ A comprehensive article with multiple models and feature extraction techniques
 Key points:
 1. Using g SSD (hand detection), CNN (3D hand pose coordinate estimation), SVD (discriminative hand-related features), and LSTM (handling sequential modeling of features)
 2. Using a pretrained model to detect keypoints to estimate a 3d hand pose model.
-<p align="center"><img src="Articles/Article4/1.png" alt="Article4-1" width="600" /></p>
+<p align="center"><img src="Articles/Article7/1.png" alt="Article4-1" width="600" /></p>
+<p align="center"><img src="Articles/Article7/2.png" alt="Article4-1" width="600" /></p>
 
 
