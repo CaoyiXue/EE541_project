@@ -31,3 +31,34 @@ In the second stage, 128 filters with the same receptive field and stride are us
 3. DenseNet 121\
 <p align="center"><img src="Articles/Article4/2.png" alt="Article4-2" width="600" /></p>
 <p align="center"><img src="Articles/Article4/4.png" alt="Article4-4" width="600" /></p>
+
+### Article 5 : American Sign Language Recognition using Deep Learning and Computer Vision:  2018 IEEE International Conference on Big Data
+
+1. Approach:  
+CNN(inception) to extract spatial features from the video stream for Sign Language Recognition (SLR)\
+LSTM (Long Short-Term Memory) [7], a RNN (Recurrent Neural Network) model, to extract temporal features from the video sequences via two methods: Using the outputs from the Softmax and the Pool layer of the CNN respectively.\
+
+2. Related work:   
+  - Hidden Markov Models (HMM) to recognize facial expressions from video sequences combined with Bayesian Network Classifiers and Gaussian Tree Augmented Naive Bayes Classifier
+  - Kumud et al. frame extraction from video data, pre-processing the data, extracting key frames from the data followed by extracting other features, recognition and finally optimization
+
+3. Key points:  
+ pre-trained network as an arbitrary feature extractor
+
+### Article 6 : A novel approach for ISL alphabet recognition using Extreme Learning Machine:
+1. Key points:  
+  - Discusses some preprocessing steps:
+    - Image Resizing, Filtering and threshold based segmentation
+    - Edge Detection: Sobel, LOG, Prewitt, Roberts and Canny
+    - HOG Features extraction
+
+### Article 7 : Real‑time isolated hand sign language recognition using deep networks and SVD
+A comprehensive article with multiple models and feature extraction techniques
+
+Key points:
+1. Using g SSD (hand detection), CNN (3D hand pose coordinate estimation), SVD (discriminative hand-related features), and LSTM (handling sequential modeling of features)
+2. Using a pretrained model to detect keypoints to estimate a 3d hand pose model.
+<p align="center"><img src="Articles/Article7/1.png" alt="Article4-1" width="600" /></p>
+<p align="center"><img src="Articles/Article7/2.png" alt="Article4-1" width="600" /></p>
+
+
