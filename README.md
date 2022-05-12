@@ -1,6 +1,10 @@
 ## EE541_project
-### Data Prepare
+### Before training
 1. Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
+Or run [DownloadData.py](DownloadData.py) under current directory
+```python
+python3 DownloadData.py
+```
 The structure for this folder is 
 <p align="center"><img src="images/data_folder.png" alt="data_folder" width="400" /></p>
 
@@ -13,10 +17,7 @@ After downloading this data file, you need to modify this code to satisfy the ro
 ```python
 path = "/content/drive/MyDrive/EE541_project/"
 ```
-Or run [DownloadData.py](DownloadData.py) under current directory
-```python
-python3 DownloadData.py
-```
+
 2. You can use [VerifyClass.ipynb](VerifyClass.ipynb) to verify pictures in one data folder corresponds to the class label (data folder name). For example, pictures in filder "A" should has "A" as the first letter of their name. If it doesn't print error information, then it's safe to go next.\
 3. We use the HDF5 file to restore our data, so you need to run [BeforeTrain.ipynb](BeforeTrain.ipynb) to get ```data.hdf5```, only need to run "Store data to HDF5 file" part. As a result, you will get ```data.hdf5``` with keys ```train```, ```train_label```, ```test```, ```test_label```, ```test2```, ```test2_label```.\
 The rest code on it is calculating mean and standard deviation for our training data, and respectively plot sample pictures from [Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet) and [Roboflow](https://public.roboflow.com/object-detection/american-sign-language-letters).\
