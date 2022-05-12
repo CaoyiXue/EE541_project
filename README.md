@@ -13,7 +13,7 @@ from google.colab import drive
 drive.mount('/content/drive/', force_remount=True)
 ```
 After downloading this data file, modify this code to satisfy the root path where you store data file if necessary.
-If you run ```python3 DownloadData.py``` under the same directory with code, you don't need to modify
+If you run ```python3 DownloadData.py``` under the same directory with code and don't use GoogleColab, you don't need to modify it.
 ```python
 path = "./"
 ```
