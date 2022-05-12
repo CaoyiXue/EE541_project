@@ -1,7 +1,7 @@
 ## EE541_project American Sign Lauguage
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
-1. Run [DownloadData.py](DownloadData.py) under the same directory with code\
+1. Make sure you have installed requests, zipfile, shutil, os. Then, Run [DownloadData.py](DownloadData.py) under the same directory with code\
 ```python3 DownloadData.py``` Wait for a few minutes\
 Or Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 The structure for this folder is 
