@@ -32,4 +32,4 @@ The rest code on it is calculating mean and standard deviation for our training 
 1. In [VideoTest.ipynb](VideoTest.ipynb), it shows our offline video ASL classification. It will use all loaded models under ```data/asl/models/``` to get corresponding ```*out.mp4```. Then the ```test_video``` folder will like:
 <p align="center"><img src="images/video_folder.png" alt="video_folder" width="400" /></p>
 
-Note: when reload the model from pt file we get, we need to reload from GPU location.
+Note: when reload the model from pt file under data folder, we need to reload from GPU location.
