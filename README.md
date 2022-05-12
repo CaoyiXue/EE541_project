@@ -1,7 +1,7 @@
 ## EE541_project American Sign Lauguage
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
-1. Run [DownloadData.py](DownloadData.py) under current directory\
+1. Run [DownloadData.py](DownloadData.py) under the same directory with code\
 ```python3 DownloadData.py``` Wait for a few minutes\
 Or Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 The structure for this folder is 
@@ -12,7 +12,8 @@ We run our code on GoogleColab. If you don't use colab, you can skip these code 
 from google.colab import drive
 drive.mount('/content/drive/', force_remount=True)
 ```
-After downloading this data file, you need to modify this code to satisfy the root path where you store data file 
+After downloading this data file, modify this code to satisfy the root path where you store data file if necessary.
+If you run ```python3 DownloadData.py``` under the same directory with code, you don't need to modify
 ```python
 path = "./"
 ```
