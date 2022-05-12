@@ -1,7 +1,7 @@
 ## EE541_project American Sign Lauguage
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
-1. Make sure you have installed requests, zipfile, shutil, os and open the terminal. Then, Run [DownloadData.py](DownloadData.py)```python3 DownloadData.py``` under the same directory with cod. Wait for a few minutes until seeing ```Downloading Completed```\
+1. Make sure you have installed requests, zipfile, shutil, os and open the terminal. Then, Run [DownloadData.py](DownloadData.py)```python3 DownloadData.py``` under the same directory with code. Wait for a few minutes until seeing ```Downloading Completed```\
 Or Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 The structure for this folder is 
 <p align="center"><img src="images/data_folder.png" alt="data_folder" width="400" /></p>
@@ -31,4 +31,4 @@ The rest code on it is calculating mean and standard deviation for our training 
 1. In [VideoTest.ipynb](VideoTest.ipynb), it shows our offline video ASL classification. It will use all loaded models under ```data/asl/models/``` to get corresponding ```*out.mp4```. Then the ```test_video``` folder will like:
 <p align="center"><img src="images/video_folder.png" alt="video_folder" width="400" /></p>
 
-Note: when reload the model from pt file under data folder, we need to reload from GPU location.
+Note: when reload the model from pt file under data folder we give, you need to reload from GPU location.
