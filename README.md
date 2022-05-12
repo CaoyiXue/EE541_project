@@ -1,9 +1,9 @@
 ## EE541_project American Sign Lauguage
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
-1. Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
-Or run [DownloadData.py](DownloadData.py) under current directory\
+1. Run [DownloadData.py](DownloadData.py) under current directory\
 ```python3 DownloadData.py```\
+Or Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 The structure for this folder is 
 <p align="center"><img src="images/data_folder.png" alt="data_folder" width="400" /></p>
 
@@ -14,7 +14,7 @@ drive.mount('/content/drive/', force_remount=True)
 ```
 After downloading this data file, you need to modify this code to satisfy the root path where you store data file 
 ```python
-path = "/content/drive/MyDrive/EE541_project/"
+path = "./"
 ```
 
 1. You can use [VerifyClass.ipynb](VerifyClass.ipynb) to verify pictures in one data folder corresponds to the class label (data folder name). For example, pictures in filder "A" should has "A" as the first letter of their name. If it doesn't print error information, then it's safe to go next.\
@@ -28,4 +28,7 @@ The rest code on it is calculating mean and standard deviation for our training 
 3. In [DeeperModels.ipynb](DeeperModels.ipynb), we train 3 deeper models than resnet18, including ResNet34, ResNet50, and DenseNet121 with freezing. Finally, get accuracy on test data and test2 data.\
 
 ### Video Test
-1. In [VideoTest.ipynb](VideoTest.ipynb), it shows our offline video ASL classification. It will use all loaded models under ```data/asl/models/``` to get corresponding ```*out.mp4```.
+1. In [VideoTest.ipynb](VideoTest.ipynb), it shows our offline video ASL classification. It will use all loaded models under ```data/asl/models/``` to get corresponding ```*out.mp4```. Then the ```test_video``` folder will like:
+<p align="center"><img src="images/video_folder.png" alt="video_folder" width="400" /></p>
+
+Note: when reload the model from pt file, we need to reload from GPU location.
