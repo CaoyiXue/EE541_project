@@ -16,15 +16,15 @@ If you run ```python3 DownloadData.py``` under the same directory with code and 
 ```python
 path = "./"
 ```
-2. You can use [VerifyClass.ipynb](VerifyClass.ipynb) to verify pictures in one data folder corresponds to the class label (data folder name). For example, pictures in filder "A" should has "A" as the first letter of their name. If it doesn't print error information, then it's safe to go next.\
+2. You can use [VerifyClass.ipynb](VerifyClass.ipynb) to verify pictures in one data folder corresponds to the class label (data folder name). For example, pictures in filder "A" should has "A" as the first letter of their name. If it doesn't print error information, then it's safe to go next.
 3. We use the HDF5 file to restore our data, so you need to run [BeforeTrain.ipynb](BeforeTrain.ipynb) to get ```data.hdf5```, only need to run "Store data to HDF5 file" part. As a result, you will get ```data.hdf5``` with keys ```train```, ```train_label```, ```test```, ```test_label```, ```test2```, ```test2_label```.\
-The rest code on it is calculating mean and standard deviation for our training data, and respectively plot sample pictures from [Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet) and [Roboflow](https://public.roboflow.com/object-detection/american-sign-language-letters).\
+The rest code on it is calculating mean and standard deviation for our training data, and respectively plot sample pictures from [Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet) and [Roboflow](https://public.roboflow.com/object-detection/american-sign-language-letters).
 4. In [Noise.ipynb](Noise.ipynb), it shows how torchvision.transforms and two noises we defined look like.
 
 ### Training
-1. In [SimpleModel.ipynb](SimpleModel.ipynb), we test 4 simple model from Net(), NetDropout(), NetBatchnorm(). And use one simple approach to find the suitable learning rate. Finally, we plot corresponding results for analysis.\
-2. In [ResNet18.ipynb](ResNet18.ipynb), we use transfer learning with ResNet18 without freezing to find the suitable augmentation. In our experiments, the "best" one is augmentation 2 mentioned in [ResNet18.ipynb](ResNet18.ipynb).\
-3. In [DeeperModels.ipynb](DeeperModels.ipynb), we train 3 deeper models than resnet18, including ResNet34, ResNet50, and DenseNet121 with freezing. Finally, get accuracy on test data and test2 data.\
+1. In [SimpleModel.ipynb](SimpleModel.ipynb), we test 4 simple model from Net(), NetDropout(), NetBatchnorm(). And use one simple approach to find the suitable learning rate. Finally, we plot corresponding results for analysis.
+2. In [ResNet18.ipynb](ResNet18.ipynb), we use transfer learning with ResNet18 without freezing to find the suitable augmentation. In our experiments, the "best" one is augmentation 2 mentioned in [ResNet18.ipynb](ResNet18.ipynb).
+3. In [DeeperModels.ipynb](DeeperModels.ipynb), we train 3 deeper models than resnet18, including ResNet34, ResNet50, and DenseNet121 with freezing. Finally, get accuracy on test data and test2 data.
 
 ### Video Test
 1. In [VideoTest.ipynb](VideoTest.ipynb), it shows our offline video ASL classification. It will use all loaded models under ```data/asl/models/``` to get corresponding ```*out.mp4```. Then the ```test_video``` folder will like:
