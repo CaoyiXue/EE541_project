@@ -1,4 +1,4 @@
-## EE541_project American Sign Lauguage
+## EE541_project American Sign Lauguage Classification
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
 1. Make sure you have installed requests, zipfile, shutil, os and open the terminal. Then, Run [DownloadData.py](DownloadData.py)```python3 DownloadData.py``` under the same directory with code. Wait for a few minutes until seeing ```Downloading Completed```\
