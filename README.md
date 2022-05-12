@@ -1,4 +1,5 @@
-## EE541_project
+## EE541_project American Sign Lauguage
+[GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
 1. Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 Or run [DownloadData.py](DownloadData.py) under current directory\
