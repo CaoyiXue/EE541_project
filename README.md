@@ -2,7 +2,7 @@
 [GitHubRepo](https://github.com/CaoyiXue/EE541_project.git)
 ### Before training
 1. Run [DownloadData.py](DownloadData.py) under current directory\
-```python3 DownloadData.py``` Wait for a few minutes/
+```python3 DownloadData.py``` Wait for a few minutes\
 Or Download data from [Google Drive](https://drive.google.com/file/d/1ibZYZ-O-CFdvlzZwS59jkxJih3juBrHL/view?usp=sharing), roughly 1.5GB\
 The structure for this folder is 
 <p align="center"><img src="images/data_folder.png" alt="data_folder" width="400" /></p>
